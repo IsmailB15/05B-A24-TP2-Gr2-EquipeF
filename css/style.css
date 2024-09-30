@@ -1,0 +1,73 @@
+/* Style général */
+body {
+    font-family: 'Lobster', cursive;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style du logo et de la barre de navigation */
+.navbar-brand img {
+    width: 150px;
+    height: auto;
+    justify-content: space-around;
+}
+
+
+
+.navbar-custom {
+    background-color: #ff5722;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-size: 1.2em;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover,
+.btn-light:hover {
+    color: #ffe082 !important;
+}
+
+/* Bouton hamburger */
+.navbar-tog {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-tog .navbar-to {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px auto;
+}
+
+/* Footer et retour en haut */
+.footer {
+    background-color: #ff5722;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a, 
+.footer p {
+    color: white;
+    margin: 0;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.btn-light {
+    background-color: #ffe082;
+    color: #000;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
